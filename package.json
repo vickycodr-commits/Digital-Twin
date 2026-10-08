@@ -1,0 +1,23 @@
+{
+  "name": "twin-rag-ai-workspace",
+  "version": "1.0.0",
+  "description": "Uncertainty Aware Hybrid Graph Vector RAG for Explainable Predictive Maintenance in Digital Twin Enabled Industrial Systems",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "dev:backend": "python -m uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload",
+    "test:backend": "python -m pytest tests/test_twin_rag.py -v"
+  },
+  "keywords": [
+    "digital-twin",
+    "predictive-maintenance",
+    "graphrag",
+    "vector-rag",
+    "hybrid-rag",
+    "uncertainty-quantification",
+    "explainable-ai",
+    "shap"
+  ],
+  "author": "Research AI/ML Engineering Team",
+  "license": "MIT"
+}
